@@ -3,6 +3,15 @@ name = "rustenv"
 version = "0.0.1"
 edition = "2021"
 
+license =  "MIT"
+description = "A simple env parser"
+authors = ["Gustavo Mendonça, <https://github.com/swxtz>"]
+repository = "https://github.com/swxtz/rustenv"
+documentation = "https://docs.rs/crate/rustenv"
+
+[lib]
+name = "rustenv"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
