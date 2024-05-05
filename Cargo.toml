@@ -1,6 +1,6 @@
 [package]
 name = "rustenv"
-version = "0.0.2"
+version = "1.0.0"
 edition = "2021"
 
 license =  "MIT"
@@ -12,6 +12,8 @@ documentation = "https://docs.rs/crate/rustenv"
 [features]
 default = []
 write = []
+read = []
+all = ["read", "write"]
 
 [lib]
 name = "rustenv"

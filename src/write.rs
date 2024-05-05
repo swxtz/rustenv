@@ -12,10 +12,8 @@ impl Write {
             Some => {
                 let result = format!("Error: env {} write", value);
                 return Err(result);
-            },
-            None() => {
-                Ok(())
             }
+            None() => Ok(()),
         }
     }
 }
